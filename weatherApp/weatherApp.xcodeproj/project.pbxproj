@@ -13,6 +13,7 @@
 		863D3A9728AF89E0005BF46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863D3A9528AF89E0005BF46E /* Main.storyboard */; };
 		863D3A9928AF89E2005BF46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863D3A9828AF89E2005BF46E /* Assets.xcassets */; };
 		863D3A9C28AF89E2005BF46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863D3A9A28AF89E2005BF46E /* LaunchScreen.storyboard */; };
+		86DE639729BD86B500793CB9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE639629BD86B500793CB9 /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		863D3A9828AF89E2005BF46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863D3A9B28AF89E2005BF46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		863D3A9D28AF89E2005BF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DE639629BD86B500793CB9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				863D3A8F28AF89E0005BF46E /* AppDelegate.swift */,
 				863D3A9128AF89E0005BF46E /* SceneDelegate.swift */,
 				863D3A9328AF89E0005BF46E /* ViewController.swift */,
+				86DE639629BD86B500793CB9 /* WeatherView.swift */,
 				863D3A9528AF89E0005BF46E /* Main.storyboard */,
 				863D3A9828AF89E2005BF46E /* Assets.xcassets */,
 				863D3A9A28AF89E2005BF46E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				863D3A9428AF89E0005BF46E /* ViewController.swift in Sources */,
 				863D3A9028AF89E0005BF46E /* AppDelegate.swift in Sources */,
 				863D3A9228AF89E0005BF46E /* SceneDelegate.swift in Sources */,
+				86DE639729BD86B500793CB9 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LMM86HL9R;
+				DEVELOPMENT_TEAM = 5448P9US72;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weatherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LMM86HL9R;
+				DEVELOPMENT_TEAM = 5448P9US72;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weatherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
